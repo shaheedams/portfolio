@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+}
+h1{
+    font-size: 12vh;
+    margin: 0;
+    color: white;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+p{
+    font-size: 4vh;
+    color: #51C4D3;
+    text-shadow: 2px 2px 4px #000000;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type:y mandatory;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align:start ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.section:nth-child(1){
+    background-color: #444444;
+}
+.section:nth-child(2){
+    background-color: #444444;
+}
+.section:nth-child(3){
+    background-color: #444444;
+}
+.section:nth-child(4){
+    background-color: #444444;
+}
+.name{
+   padding-top: 35vh;
+}
+.role{
+    padding-left: 36vw;
+    margin: 0;
+}
+.tittle1{
+    padding-top: 25vh;
+}
+.about{
+    padding:35px;
+    margin-top: 0;
+    padding-right: 50px;
+    padding-left:50px ;
+}
+.imageSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills{
+    
+}
+.css{
+    margin-right: 10px;
+}
+.react{
+    position: relative;
+    top: 40px;
+    right: 20px;
+    
+}
+.boot{
+    position: relative;
+    right: 40px;
+}
+.jq{
+    position: relative;
+    right: 40px;
+}
+.images{
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+.iconSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    padding:25px;
+}
+.contact{
+    padding-right: 60px;
+    padding-left:60px ;
+}
+
+.icons:hover{
+    position: relative;
+    bottom: 10px;
+}
+.hover:hover{
+    position: relative;
+    bottom: 10px;
+}
+.footer{
+    position: relative;
+    color: #DA0037;
+    top: 80px;
+    font-size: 2vh;
+}
+i{
+    color:#DA0037 ;
+    margin-right: 10px;
+}
+
+/* ANIMATION: */
+
+.wrap {
+  overflow-x:hidden;
+}
+.slideInRight {
+  animation-name: slideInRight;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+name:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
