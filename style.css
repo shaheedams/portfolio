@@ -48,6 +48,9 @@ p{
 .section:nth-child(4){
     background-color: #171010;
 }
+.section:nth-child(5){
+    background-color: #171010;
+}
 /* LAYOUT CSS END */
 
 /* PAGE 1 CSS */
