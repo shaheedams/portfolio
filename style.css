@@ -1,5 +1,4 @@
 /* LAYOUT CSS: */
-
 body {
   margin: 0;
   padding: 0;
@@ -188,7 +187,10 @@ name:hover {
 
 /* MOBILE RESPONSIVE CSS */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-device-width: 560px) {
+  body {
+    background-color: orange;
+  }
   h1 {
     font-size: 5vh;
     padding-right: 10px;
@@ -261,6 +263,8 @@ name:hover {
   .imageSection {
     padding-top: 5vh;
   }
-  .skillss {
+  .projects {
+    display: flex;
+    flex-direction: column;
   }
 }
