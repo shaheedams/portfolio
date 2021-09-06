@@ -1,0 +1,266 @@
+/* LAYOUT CSS: */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", cursive;
+}
+h1 {
+  font-size: 12vh;
+  margin: 0;
+  color: white;
+  padding-top: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+h3 {
+  color: white;
+}
+p {
+  font-size: 4vh;
+  color: #51c4d3;
+  text-shadow: 2px 2px 4px #000000;
+}
+.containers {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.section:nth-child(1) {
+  background-color: #171010;
+}
+.section:nth-child(2) {
+  background-color: #171010;
+}
+.section:nth-child(3) {
+  background-color: #171010;
+}
+.section:nth-child(4) {
+  background-color: #171010;
+}
+.section:nth-child(5) {
+  background-color: #171010;
+}
+/* LAYOUT CSS END */
+
+/* PAGE 1 CSS */
+
+.name {
+  padding-top: 35vh;
+}
+.role {
+  padding-left: 36vw;
+  margin: 0;
+}
+.tittle1 {
+  padding-top: 25vh;
+}
+
+/* PAGE 2 CSS */
+
+.about {
+  padding: 35px;
+  margin-top: 0;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* PAGE 3 CSS */
+
+.imageSections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.css {
+  margin-right: 10px;
+}
+.react {
+  position: relative;
+  top: 40px;
+  right: 20px;
+}
+.boot {
+  position: relative;
+  right: 40px;
+}
+.jq {
+  position: relative;
+  right: 40px;
+}
+.imagess {
+  position: relative;
+  left: 70px;
+  bottom: 40px;
+}
+
+/* PAGE 4 CSS */
+.projects {
+  display: flex;
+  margin-top: 30px;
+  width: 80%;
+  justify-content: space-around;
+}
+iframe {
+  border: none;
+  border-top: 1px solid #da0037;
+  scroll-padding: 0;
+}
+
+/* PAGE 5 CSS */
+.iconSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  padding: 25px;
+}
+.contact {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+/* ANIMATION CSS */
+
+.icons:hover {
+  position: relative;
+  bottom: 10px;
+}
+.hover:hover {
+  position: relative;
+  bottom: 10px;
+}
+.footer {
+  position: relative;
+  color: #da0037;
+  top: 80px;
+  font-size: 2vh;
+}
+i {
+  color: #da0037;
+  margin-right: 10px;
+}
+
+/* ANIMATION FOR NAME: */
+
+.wrap {
+  overflow-x: hidden;
+}
+.slideInRight {
+  animation-name: slideInRight;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+name:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* MOBILE RESPONSIVE CSS */
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 5vh;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  p {
+    font-size: 45px;
+  }
+  .name {
+    padding-top: 0;
+  }
+  .nameSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .about {
+    letter-spacing: 5px;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5vh;
+  }
+  .role {
+    padding-top: 20px;
+  }
+  .aboutSection {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .tittle1 {
+    padding: 0;
+    padding-bottom: 60px;
+    letter-spacing: 20px;
+  }
+  .skills {
+    letter-spacing: 20px;
+    padding-bottom: 5vh;
+  }
+  .skillsContent {
+    letter-spacing: 5px;
+  }
+  .imagess {
+    position: relative;
+    left: 20px;
+    right: 0;
+    padding-top: 5vh;
+  }
+  .jq {
+    display: none;
+  }
+  .contact {
+    letter-spacing: 5px;
+    padding-top: 5vh;
+  }
+  .imageSections {
+    padding-top: 0;
+  }
+  .fa {
+    position: relative;
+    font-size: 2vh;
+    top: 8vh;
+  }
+  .imageSection {
+    padding-top: 5vh;
+  }
+  .skillss {
+  }
+}
