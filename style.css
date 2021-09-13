@@ -61,11 +61,14 @@ p {
   padding-top: 35vh;
 }
 .role {
-  padding-left: 36vw;
+  margin-left: 36vw;
   margin: 0;
 }
 .tittle1 {
   padding-top: 25vh;
+}
+.role:hover {
+  border-bottom: 1px solid #da0037;
 }
 
 /* PAGE 2 CSS */
@@ -75,6 +78,9 @@ p {
   margin-top: 0;
   padding-right: 50px;
   padding-left: 50px;
+}
+.about i:hover {
+  border-bottom: 1px dotted #51c4d3;
 }
 
 /* PAGE 3 CSS */
