@@ -113,6 +113,9 @@ p{
     width: 80%;
     justify-content: space-around;
 }
+.project:hover{
+    padding-bottom:5px;
+}
 /* PAGE 5 CSS */
 .iconSection{
     display: flex;
