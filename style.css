@@ -119,7 +119,11 @@ iframe {
   border-top: 1px solid #da0037;
   scroll-padding: 0;
 }
-
+.project:hover {
+  position: relative;
+  bottom: 10px;
+  border-bottom: 2px solid #da0037;
+}
 /* PAGE 5 CSS */
 .iconSection {
   display: flex;
@@ -140,6 +144,7 @@ iframe {
 .icons:hover {
   position: relative;
   bottom: 10px;
+  border-bottom: 2px solid #da0037;
 }
 .hover:hover {
   position: relative;
